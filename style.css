@@ -4,6 +4,7 @@ body {
 
 #nav-bar {
   padding-top: 15px;
+  background-color: #3f71b5;
 }
 
 #logo-principal {
@@ -36,6 +37,6 @@ h2 {
 
 footer {
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   margin: 100px 0;
 }
