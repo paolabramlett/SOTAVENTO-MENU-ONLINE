@@ -40,3 +40,13 @@ footer {
   font-size: 10px;
   margin: 100px 0;
 }
+
+#menu-box {
+  background: blue;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+
+#menu-tab-des {
+}
