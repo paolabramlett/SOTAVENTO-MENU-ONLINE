@@ -33,6 +33,17 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+  font-size: 60px;
+}
+
+#second-links {
+  text-align: center;
+  font-size: 30px;
+  padding: 100px 0;
+}
+
 footer {
   text-align: center;
   font-size: 12px;
