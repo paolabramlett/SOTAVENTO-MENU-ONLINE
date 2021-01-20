@@ -30,7 +30,33 @@
     <div class="container" id="box">
     <img src="Imagenes/Sotavento_Logo-01.png" class="img-fluid" alt="Logo" id="logo-principal" />
     <h1>Bienvenid@ a nuestro Menú Online</h1>
-    <img src="Imagenes/IMG_3293.JPG" alt="Portada" id="foto-portada" />
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Imagenes/IMG_3293.JPG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Imagenes/IMG_2805.JPG" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Imagenes/IMG_2877.JPG" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
 
     <h2>
         ¿Qué hora es?
@@ -41,10 +67,10 @@
     <div class="container">
         <div class="row" id="second-links">
             <div class="col-6">
-                <button type="button" class="btn btn-primary">Hora del Desayuno</button>
+                <button type="button" class="btn btn-primary w-50">Hora del Desayuno</button>
             </div>
             <div class="col-6">
-                <button type="button" class="btn btn-primary">Hora de la Comida</button>
+                <button type="button" class="btn btn-primary w-50">Hora de la Comida</button>
             </div>
         </div>
     </div>
