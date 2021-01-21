@@ -47,6 +47,11 @@ strong {
   color: #3f71b5;
 }
 
+span {
+  color: #3f71b5;
+  font-weight: 300;
+}
+
 #second-links {
   text-align: center;
   font-size: 30px;
