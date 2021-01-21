@@ -34,18 +34,18 @@ h1 {
   color: #ea2c62;
   padding: 10px;
   margin-bottom: 50px;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 h2 {
   text-align: center;
   color: #ea2c62;
-  font-size: 25px;
+  font-size: 20px;
   padding-top: 50px;
 }
 h5 {
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
   color: #214252;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -92,7 +92,7 @@ span {
 
 #button-box h2 {
   color: #ea2c62;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #second-links {
@@ -107,7 +107,7 @@ span {
 
 #happy-hour-box h1 {
   color: #ea2c62;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #happy-hour-image {
