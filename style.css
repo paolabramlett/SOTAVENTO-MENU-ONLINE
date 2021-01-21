@@ -1,4 +1,9 @@
 body {
+  background-color: blue;
+}
+
+#box {
+  max-width: 80%;
   background-color: white;
 }
 
