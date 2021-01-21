@@ -42,19 +42,19 @@ h5 {
   text-align: center;
   font-size: 15px;
   color: #214252;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 p {
-  color: rgb(107, 107, 107);
+  color: rgb(90, 90, 90);
   font-size: 13px;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 small {
-  color: rgb(107, 107, 107);
+  color: rgb(90, 90, 90);
   font-size: 13px;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #menu-tabs {
@@ -97,7 +97,21 @@ span {
 #happy-hour-s {
   text-align: center;
   font-size: 25px;
-  color: rgb(37, 143, 170);
+  color: rgb(90, 90, 90);
+}
+
+#address-card {
+  margin-top: 70px;
+}
+
+#address-card p {
+  font-size: 16px;
+}
+
+#address-card h5 {
+  font-size: 25px;
+  color: #ea2c62;
+  font-weight: bold;
 }
 
 footer {
