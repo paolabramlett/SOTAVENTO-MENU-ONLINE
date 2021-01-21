@@ -43,15 +43,21 @@ p {
   font-family: "Open Sans Condensed", sans-serif;
 }
 
+small {
+  color: rgb(107, 107, 107);
+  font-size: 13px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
 strong {
   color: #3f71b5;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 span {
   color: #3f71b5;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 #second-links {
