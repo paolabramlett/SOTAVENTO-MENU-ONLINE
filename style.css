@@ -18,7 +18,15 @@ body {
 #logo-principal {
   display: block;
   margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
   max-width: 150px;
+}
+
+#photo-grid {
+  max-width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 h1 {
