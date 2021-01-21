@@ -34,7 +34,7 @@ h1 {
 
 h2 {
   text-align: center;
-  color: #214252;
+  color: #ea2c62;
   font-size: 25px;
   padding-top: 50px;
 }
@@ -58,20 +58,20 @@ small {
 }
 
 #menu-tabs {
-  padding: 30px;
+  padding: 20px;
 }
 
 #row-box {
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 strong {
-  color: #3f71b5;
+  color: #ea2c62;
   font-size: 13px;
 }
 
 span {
-  color: #3f71b5;
+  color: #ea2c62;
   font-weight: 300;
   font-size: 13px;
 }
@@ -79,7 +79,25 @@ span {
 #second-links {
   text-align: center;
   font-size: 30px;
-  padding: 70px 0;
+  padding: 50px 0;
+}
+#happy-hour-box {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#happy-hour-image {
+  max-width: 100%;
+}
+#happy-hour-p {
+  text-align: center;
+  font-size: 30px;
+  color: #ea2c62;
+}
+#happy-hour-s {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(37, 143, 170);
 }
 
 footer {
