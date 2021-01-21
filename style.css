@@ -10,7 +10,7 @@ body {
 #logo-principal {
   display: block;
   margin: 0 auto;
-  max-width: 250px;
+  max-width: 200px;
 }
 
 #foto-portada {
@@ -22,11 +22,13 @@ body {
 
 h1 {
   text-align: center;
+  padding: 50px;
 }
 
 h2 {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
+  padding-top: 50px;
 }
 
 #second-links {
