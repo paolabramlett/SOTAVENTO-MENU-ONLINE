@@ -34,7 +34,8 @@ h1 {
   color: #ea2c62;
   padding: 10px;
   margin-bottom: 50px;
-  font-size: 40px;
+  font-size: 50px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 h2 {
@@ -101,7 +102,7 @@ span {
   padding: 50px 0;
 }
 #happy-hour-box {
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
