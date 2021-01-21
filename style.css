@@ -64,6 +64,9 @@ small {
 
 #menu-tabs {
   padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 #row-box {
