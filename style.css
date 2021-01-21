@@ -1,10 +1,13 @@
 body {
-  background-color: blue;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
 }
 
 #box {
-  max-width: 80%;
+  max-width: 90%;
+  margin: 20px auto;
   background-color: white;
+  border-radius: 4px;
+  box-shadow: 10px 10px 5px 2px rgba(0, 0, 255, 0.2);
 }
 
 #nav-bar {
@@ -15,31 +18,31 @@ body {
 #logo-principal {
   display: block;
   margin: 0 auto;
-  max-width: 200px;
-}
-
-#foto-portada {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-  padding: 50px 10px;
+  max-width: 150px;
 }
 
 h1 {
   text-align: center;
-  padding: 50px;
+  color: white;
+  padding: 10px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  background-color: #ea2c62;
+  border-radius: 4px;
+  box-shadow: 5px 5px 3px 2px rgba(0, 0, 255, 0.2);
 }
 
 h2 {
   text-align: center;
-  font-size: 50px;
+  color: #214252;
+  font-size: 30px;
   padding-top: 50px;
 }
 h5 {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
+  color: #214252;
   font-family: "Open Sans Condensed", sans-serif;
-  color: rgb(107, 107, 107);
 }
 
 p {
@@ -52,6 +55,14 @@ small {
   color: rgb(107, 107, 107);
   font-size: 13px;
   font-family: "Open Sans Condensed", sans-serif;
+}
+
+#menu-tabs {
+  padding: 30px;
+}
+
+#row-box {
+  padding-top: 20px;
 }
 
 strong {
@@ -75,4 +86,5 @@ footer {
   text-align: center;
   font-size: 10px;
   margin: 100px 0;
+  color: white;
 }
