@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: font-family: "Roboto Condensed", sans-serif;
   text-align: center;
   color: #ea2c62;
   padding: 10px;
@@ -86,6 +86,11 @@ span {
   padding: 50px;
 }
 
+#button-box h2 {
+  color: #ea2c62;
+  font-size: 40px;
+}
+
 #second-links {
   text-align: center;
   font-size: 30px;
@@ -94,6 +99,11 @@ span {
 #happy-hour-box {
   padding-top: 20px;
   padding-bottom: 50px;
+}
+
+#happy-hour-box h1 {
+  color: #ea2c62;
+  font-size: 40px;
 }
 
 #happy-hour-image {
@@ -118,13 +128,6 @@ span {
   font-size: 16px;
 }
 
-#address-card-box {
-  max-width: 100%;
-  background-color: #f4f4f2;
-  padding-top: 30px;
-  padding-bottom: 70px;
-}
-
 #address-card h5 {
   font-size: 25px;
   color: #ea2c62;
@@ -138,4 +141,7 @@ footer {
   color: white;
   background-color: #3f71b5;
   padding: 100px;
+}
+#footer a {
+  color: white;
 }
