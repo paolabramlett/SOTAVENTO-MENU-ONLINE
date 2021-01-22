@@ -1,0 +1,1 @@
+alert("¡Bienvenid@ a nuestro menú en línea! Esperamos que disfrutes tus alimentos. 😋👌 ¡Buen provecho!");
