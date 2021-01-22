@@ -1,1 +1,1 @@
-alert("¡Bienvenid@ a nuestro menú en línea! Esperamos que disfrutes tus alimentos. 😋👌 ¡Buen provecho!");
+alert("¡Bienvenid@ a nuestro menú en línea! Esperamos que disfrutes mucho tus alimentos. 😋👌 ¡Buen provecho! (🍹La Happy Hour empieza a las 5:00pm 👈😉)");
