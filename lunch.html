@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/0fcc75b3ec.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <title>Restaurant Sotavento</title>
+</head>
+
+<body>
+    <nav id=nav-bar>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active text-white" href="englishindex.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="desayuno.html">Morning Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#">Afternoon Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="index.html">| Español</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container" id="box">
+        <img src="Imagenes/Sotavento_Logo-01.png" class="img-fluid" alt="Logo" id="logo-principal" />
+        <br />
+        <h1>
+            Lunch & Dinner
+        </h1>
+
+        <br />
+        <h2>
+            Do you need some recommendations?
+        </h2>
+        <br />
+        <h5>
+            These are some our clients' favorites.
+        </h5>
+        <h5>
+            👇😉
+        </h5>
+        <br />
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagenes/IMG_2796.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/IMG_2529.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/IMG_2925.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/IMG_6621.JPG" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+        <br />
+
+        <div class="container" id="recomendaciones">
+            <h2>
+                Follow this symbol <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                </svg> to identify our recommendations.
+            </h2>
+        </div>
+        <br />
+        <br />
+
+        <div class="container" id="menu-tabs">
+            <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="pills-comida1-tab" data-bs-toggle="pill" href="#pills-comida1"
+                        role="tab" aria-controls="pills-comida1" aria-selected="true">Snacks & Salads</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-comida2-tab" data-bs-toggle="pill" href="#pills-comida2" role="tab"
+                        aria-controls="pills-comida2" aria-selected="false">Soup & Pasta</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-comida3-tab" data-bs-toggle="pill" href="#pills-comida3" role="tab"
+                        aria-controls="pills-comida3" aria-selected="false">Sandwiches & Burgers</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-comida4-tab" data-bs-toggle="pill" href="#pills-comida4" role="tab"
+                        aria-controls="pills-comida4" aria-selected="false">Chicken & Beef</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-comida5-tab" data-bs-toggle="pill" href="#pills-comida5" role="tab"
+                        aria-controls="pills-comida5" aria-selected="false">Seafood</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-comida6-tab" data-bs-toggle="pill" href="#pills-comida6" role="tab"
+                        aria-controls="pills-comida6" aria-selected="false">Cocktails</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-comida7-tab" data-bs-toggle="pill" href="#pills-comida7" role="tab"
+                        aria-controls="pills-comida7" aria-selected="false">Drinks</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-comida8-tab" data-bs-toggle="pill" href="#pills-comida8" role="tab"
+                        aria-controls="pills-comida8" aria-selected="false">Desserts</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-comida9-tab" data-bs-toggle="pill" href="#pills-comida9" role="tab"
+                        aria-controls="pills-comida9" aria-selected="false">Liquor</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="pills-comida1" role="tabpanel"
+                    aria-labelledby="pills-comida1-tab">
+                    <div class="row" id="row-box">
+                        <div class="col-6">
+                            <strong>Quesadillas</strong><span> | $91.00</span>
+                            <p>Quesadillas de tortilla de harina con quesillo y Guacamole</p>
+                            <strong>Nachos</strong><span> | $76.00</span>
+                            <p>Totopos bañados en salsa de frijol, quesos y pico de gallo</p>
+                            <strong>Nachos Sotavento <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                </svg></strong><span> | $98.00</span>
+                            <p>Totopos bañados en salsa de frijol, quesos y pico de gallo con tasajo o pollo</p>
+                            <strong>Guacamole</strong><span> | $68.00</span>
+                            <p></p>
+                            <strong>Papas a la Francesa</strong><span> | $68.00</span>
+                            <p></p>
+                            <strong>Tostadas de Pollo</strong><span> | $76.00</span>
+                            <p></p>
+                            <strong>Tacos Dorados</strong><span> | $76.00</span>
+                            <p>Taquitos fritos de pollo</p>
+                        </div>
+                        <div class="col-6">
+                            <strong>Ensalada César</strong><span> | $88.00</span>
+                            <p>Lechuga, huevo, mostaza, queso</p>
+                            <strong>Ensalada del Chef</strong><span> | $99.00</span>
+                            <p>Verduras frescas con queso, atún , jamón y huevo</p>
+                            <strong>Ensalada Tropical</strong><span> | $110.00</span>
+                            <p>Con manzana, nuez y queso de cabra</p>
+                            <strong>Ensalada de Atún</strong><span> | $99.00</span>
+                            <p>Atún con verduras frescas y mayonesa</p>
+                            <strong>Ensalada de Camarón</strong><span> | $143.00</span>
+                            <p>Camarones con verduras frscas y mayonesa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-comida2" role="tabpanel" aria-labelledby="pills-comida2-tab">
+                    <div class="row" id="row-box">
+                        <div class="col-6">
+                            <strong>Sopa de Mariscos</strong><span> | $198.00</span>
+                            <p>Caldo de camarón, pescado y pulpo</p>
+                            <strong>Sopa Xóchitl</strong><span> | $91.00</span>
+                            <p>Caldo de pollo con arroz</p>
+                            <strong>Sopa Azteca</strong><span> | $109.00</span>
+                            <p>Sopa de tortilla con queso fresco y aguacate</p>
+                            <strong>Sopa de Verduras</strong><span> | $91.00</span>
+                            <p></p>
+                        </div>
+                        <div class="col-6">
+                            <strong>Spaghetti Marinera <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                </svg></strong><span> | $190.00</span>
+                            <p>Salsa cremosa con camarón, pulpo y pescado</p>
+                            <strong>Bolognesa</strong><span> | $121.00</span>
+                            <p>Salsa de tomate y crema molida</p>
+                            <strong>Tres Quesos</strong><span> | $91.00</span>
+                            <p>Salsa cremosa de queso de cabra, gouda y parmesano</p>
+                            <strong>Pasta de Atún</strong><span> | $109.00</span>
+                            <p>Salsa cremosa con Atún</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-comida3" role="tabpanel" aria-labelledby="pills-comida3-tab">
+                    <div class="row" id="row-box">
+                        <div class="col-6">
+
+                            <strong>Hamburguesa</strong><span> | $109.00</span>
+                            <p>Con queso, tocino y cebolla asada</p>
+                            <strong>Hamburguesa Hawaiana <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                </svg></strong><span> | $121.00</span>
+                            <p>Con jamón, queso y piña</p>
+                        </div>
+                        <div class="col-6">
+                            <strong>Club Sándwich</strong><span> | $92.00</span>
+                            <p>Acompañado con papas a la francesa</p>
+                            <strong>Torta</strong><span> | $62.00</span>
+                            <p>De jamón y queso</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-comida4" role="tabpanel" aria-labelledby="pills-comida4-tab">
+                    <div class="row" id="row-box">
+                        <div class="col-6">
+                            <strong>Pollo a la Naranja</strong><span> | $149.00</span>
+                            <p>Pierna y muslo de pollo en salsa agridulce de naranja</p>
+                            <strong>Pechuga Rellena<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                </svg></strong><span> | $149.00</span>
+                            <p>Pechuga de pollo empanizada rellena de queso y espinacas, bañada en salsa cremosa de
+                                pimiento morrón</p>
+                            <strong>Pechuga empanizada</strong><span> | $149.00</span>
+                            <p>Acompañada de verduras al vapor y arroz</p>
+                            <strong>Pollo a la Plancha</strong><span> | $183.00</span>
+                            <p>Medio pollo a las hierbas asado acompañado de verduras al vapor y arroz</p>
+                            <strong>Fajitas de Pollo</strong><span> | $149.00</span>
+                            <p>Tiras de pechuga con pimiento morrón y cebolla dulce acompañadas de guacamole</p>
+                        </div>
+                        <div class="col-6">
+                            <strong>Filete Mignon</strong><span> | $221.00</span>
+                            <p>Filete de res envuelto en tocino y bañado en salsa Gravy</p>
+                            <strong>Arrachera</strong><span> | $237.00</span>
+                            <p>Acompañada de nopales y cebolla cambray asados y guacamole</p>
+                            <strong>Brocheta al Vino Tinto <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-bookmark-star-fill"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                </svg></strong><span> | $212.00</span>
+                            <p>Filete de res asado bañado en salsa de vino tinto</p>
+                            <strong>Tampiqueña<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                </svg></strong><span> | $221.00</span>
+                            <p>Filete de res acompañado de enchilada, taquito de pollo, plátano frito y guacamole</p>
+                            <strong>Costillas BBQ</strong><span> | $198.00</span>
+                            <p>Costillas de cerdo bañadas en salsa BBQ</p>
+                            <strong>Puntas de Filete a la Mexicana</strong><span> | $167.00</span>
+                            <p>Filete de res en trozos con tomate y cebolla</p>
+                            <strong>Fajitas de Res</strong><span> | $149.00</span>
+                            <p>Tiras de filete de res con pimiento morrón y cebolla, acompañadas de guacamole</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-comida5" role="tabpanel" aria-labelledby="pills-comida5-tab">
+                    <div class="row" id="row-box">
+                        <div class="col-6">
+                            <strong>Coctel de Camarón</strong><span> | P $143.00 | G $190.00</span>
+                            <p></p>
+                            <strong>Coctel Campechano</strong><span> | P $143.00 | G $190.00</span>
+                            <p></p>
+                            <strong>Mariscada</strong><span> | $659.00</span>
+                            <p>Langosta, camarones, pulpo y pescado, servidos con arroz o papas a la francesa</p>
+                            <strong>Langosta al Ajo o Mantequilla</strong><span> | $$</span>
+                            <p>Precio sujeto a tamaño</p>
+                            <strong>Pescado Frito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                </svg></strong><span> | $208.00</span>
+                            <p>Huachinango frito al ajo o a la mantequilla, servido con arroz y verduras al vapor</p>
+                            <strong>Huachinango Papillote</strong><span> | $222.00</span>
+                            <p>Huachinango empapelado y horneado con verduras</p>
+                            <strong>Camarones al Ajo o al Ajillo</strong><span> | $175.00</span>
+                            <p>Camarones fritos con ajo y/o con chile guajillo</p>
+                            <strong>Medallones de Camarón</strong><span> | $241.00</span>
+                            <p>Medallón de camarones cubierto de tocino</p>
+                            <strong>Camarones Sotavento <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                </svg></strong><span> | $241.00</span>
+                            <p>Camarones envueltos en tocino bañados con salsa estilo Sotavento©</p>
+                        </div>
+                        <div class="col-6">
+                            <strong>Camarones Empanizados</strong><span> | $241.00</span>
+                            <p>Acompañados con arroz y verduras al vapor</p>
+                            <strong>Costalitos de Camarón</strong><span> | $190.00</span>
+                            <p>(4 pzas.) Tortillas de harina rellenas de queso manchego y camarones</p>
+                            <strong>Camarones a la Diabla</strong><span> | $241.00</span>
+                            <p>Bañados en salsa picante de variedad de chiles acompañados de arroz y verduras al vapor
+                            </p>
+                            <strong>Filete de Pescado Papillote</strong><span> | $208.00</span>
+                            <p>Filete de sierra empapelado y horneado con verduras</p>
+                            <strong>Filete de Pescado Empanizado</strong><span> | $158.00</span>
+                            <p>Acompañado de arroz y verduras al vapor</p>
+                            <strong>Pulpo al Ajo</strong><span> | $175.00</span>
+                            <p>Acompañado de arroz y verduras al vapor</p>
+                            <strong>Pulpo a la Diabla</strong><span> | $246.00</span>
+                            <p>Bañado en salsa picante de variedad de chiles, acompañado de arroz y verduras al vapor
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-comida6" role="tabpanel" aria-labelledby="pills-comida6-tab">
+                    <div class="row" id="row-box">
+                        <div class="col-6">
+                            <strong>Margarita</strong><span> | $76.00</span>
+                            <p>Tequila, controy, limón</p>
+                            <strong>Tequila Sunrise</strong><span> | $84.00</span>
+                            <p>Tequila, naranja, granadina</p>
+                            <strong>Piña colada</strong><span> | $87.00</span>
+                            <p>Ron, piña, crema de coco</p>
+                            <strong>Daiquirí</strong><span> | $84.00</span>
+                            <p>Ron, limñon, azúcar, fruta de estación</p>
+                            <strong>Coco Loco</strong><span> | $92.00</span>
+                            <p>Ron, vodka, tequila, naranja, piña, crema de coco</p>
+                            <strong>Clamato</strong><span> | $92.00</span>
+                            <p>Vodka, jugo de tomate con almeja</p>
+                            <strong>Ruso Blanco</strong><span> | $92.00</span>
+                            <p>Vodka, kalhua, crema</p>
+                            <strong>Desarmador</strong><span> | $84.00</span>
+                            <p>Vodka, naranja</p>
+                            <strong>Vodka Tonic</strong><span> | $76.00</span>
+                            <p>Vodka, agua quina</p>
+                            <strong>Mexicana</strong><span> | $68.00</span>
+                            <p>Mezcal, piña, limón, granadina</p>
+                            <strong>Cuba Libre</strong><span> | $76.00</span>
+                            <p>Ron, refresco de cola, limón, agua mineral</p>
+                        </div>
+                        <div class="col-6">
+                            <strong>Bloody Mary</strong><span> | $76.00</span>
+                            <p>Vodka, limón, jugo de tomate, salsas</p>
+                            <strong>Mexican Sangría</strong><span> | $84.00</span>
+                            <p>Vodka, vino tinto, limonada</p>
+                            <strong>Paloma</strong><span> | $76.00</span>
+                            <p>Tequila, refresco de toronja</p>
+                            <strong>Ruso negro</strong><span> | $76.00</span>
+                            <p>Vodka, kalhua</p>
+                            <strong>Gin Tonic</strong><span> | $76.00</span>
+                            <p>Ginebra, agua quina</p>
+                            <strong>Campari-Orange</strong><span> | $68.00</span>
+                            <p>Campari, naranja</p>
+                            <strong>Tom Collins</strong><span> | $76.00</span>
+                            <p>Vodka, limonada</p>
+                            <strong>Mojito</strong><span> | $76.00</span>
+                            <p>Ron, limón, hierbabuena</p>
+                            <strong>Michelada</strong><span> | $53.00</span>
+                            <p>Cerveza, limón, salsas</p>
+                            <strong>Chelada</strong><span> | $50.00</span>
+                            <p>Cerveza, jugo de limón y sal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-comida7" role="tabpanel" aria-labelledby="pills-comida7-tab">
+                    <div class="row" id="row-box">
+                        <div class="col-6">
+                            <strong>Café Americano</strong><span> | $28.00</span>
+                            <p>Refill</p>
+                            <strong>Té Negro</strong><span> | $23.00</span>
+                            <p></p>
+                            <strong>Chocolate Caliente</strong><span> | $39.00</span>
+                            <p>Chocolate oaxaqueño hecho con leche</p>
+                            <strong>Choco-Milk</strong><span> | $46.00</span>
+                            <p></p>
+                            <strong>Licuado de Frutas</strong><span> | $55.00</span>
+                            <p>papaya, manzana, fresa, plátano, etc.</p>
+                            <strong>Piñada</strong><span> | $59.00</span>
+                            <p>A base de crema de coco</p>
+                        </div>
+                        <div class="col-6">
+                            <strong>Refresco</strong><span> | $33.00</span>
+                            <p></p>
+                            <strong>Cerveza</strong><span> | $33.00</span>
+                            <p>Indio, Corona, Victoria, XX Lager, Modelo Especial</p>
+                            <strong>Agua de Frutas Frescas</strong><span> | $39.00</span>
+                            <p>Papaya, piña, sandia, melón, flor de jamaica, etc.</p>
+                            <strong>Jarra de Agua de Frutas</strong><span> | $92.00</span>
+                            <p></p>
+                            <strong>Limonada/Naranjada</strong><span> | $50.00</span>
+                            <p>Con agua mineral</p>
+                            <strong>Jarra de Limonada/Naranjada</strong><span> | $99.00</span>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-comida8" role="tabpanel" aria-labelledby="pills-comida8-tab">
+                    <div class="row" id="row-box">
+                        <div class="col-6">
+                            <strong>Plátanos Flameados</strong><span> | $62.00</span>
+                            <p></p>
+                            <strong>Carlota de Limón</strong><span> | $46.00</span>
+                            <p></p>
+                            <strong>Flan de Coco</strong><span> | $46.00</span>
+                            <p></p>
+                        </div>
+                        <div class="col-6">
+                            <strong>Helado</strong><span> | $62.00</span>
+                            <p></p>
+                            <strong>Cheesecake</strong><span> | $62.00</span>
+                            <p></p>
+                            <strong>Tiramisú</strong><span> | $62.00</span>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-comida9" role="tabpanel" aria-labelledby="pills-comida9-tab">
+                    <div class="row" id="row-box">
+                        <div class="col-6">
+                            <strong>Tequila</strong>
+                            <p>Herradura Blanco | $80.00</p>
+                            <p>Herradura Reposado | $95.00</p>
+                            <p>Sauza Hornitos | $75.00</p>
+                            <p>Don Julio Blanco | $80.00</p>
+                            <p>Don Julio Reposado | $90.00</p>
+                            <p>Cazadores | $80.00</p>
+                            <p>Cabritos | $80.00</p>
+                            <p>Mezcal de Oaxaca | $80.00</p>
+                            <strong>Whisky</strong>
+                            <p>Etiqueta Negra | $150.00</p>
+                            <p>Etiqueta Roja | $90.00</p>
+                            <p>Buchannan's | $120.00</p>
+                            <p>Chivas Regal | $140.00</p>
+                            <strong>Brandy</strong>
+                            <p>Azteca de Oro | $70.00</p>
+                            <p>Fundador | $85.00</p>
+                            <p>Terry | $70.00</p>
+                            <p>Torres 10 | $85.00</p>
+                        </div>
+                        <div class="col-6">
+                            <strong>Ron</strong>
+                            <p>Malibú | $88.00</p>
+                            <p>Bacardí Blanco | $77.00</p>
+                            <p>Bacardí Añejo | $83.00</p>
+                            <p>Bacardí Solera | $88.00</p>
+                            <p>Appleton Blanco | $83.00</p>
+                            <p>Appleton Dorado | $88.00</p>
+                            <p>Appleton State | $94.00</p>
+                            <p>Matusalem | $88.00</p>
+                            <strong>Vodka</strong>
+                            <p>Smirnoff | $72.00</p>
+                            <p>Absolut | $83.00</p>
+                            <strong>Cremas & Licores</strong>
+                            <p>Anís Chinchon | $83.00</p>
+                            <p>Amaretto | $83.00</p>
+                            <p>Disaronno | $99.00</p>
+                            <p>Bailey's | $94.00</p>
+                            <p>Benedictine | $99.00</p>
+                            <p>Licor 43 | $94.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer id="footer">
+        <h6>
+            Síguenos en nuestro <a href="http://www.facebook.com/restaurant.sotavento" target="_blank"
+                class="fa fa-facebook"></a>
+        </h6>
+        <br />
+        <br />
+        <br />
+
+        Website developed by <a href="https://www.linkedin.com/in/paolabramlett/" target="_blank">Paola Vásquez
+            Bramlett</a>. Open source at <a href="https://github.com/paolabramlett/SOTAVENTO-MENU-ONLINE"
+            target="_blank">
+            GitHub </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

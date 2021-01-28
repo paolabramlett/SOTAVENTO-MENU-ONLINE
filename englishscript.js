@@ -1,0 +1,1 @@
+alert("Welcome to our Online Menu! We hope you enjoy your food. 😋👌 ¡Bon apetit! (🍹 Happy Hour starts at 5:00 pm 👈😉)");

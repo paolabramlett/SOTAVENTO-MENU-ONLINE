@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/0fcc75b3ec.js" crossorigin="anonymous"></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <title>Restaurant Sotavento</title>
+</head>
+
+<body>
+    <nav id=nav-bar>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active text-white" href="englishindex.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#">Morning Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="lunch.html">Afternoon Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="index.html">| Español</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+        <div class="container" id="box">
+            <img src="Imagenes/Sotavento_Logo-01.png" class="img-fluid" alt="Logo" id="logo-principal" />
+            <br />
+            <h1>
+                Breakfast
+            </h1>
+
+            <h2>
+                Do you need some recommendations?
+            </h2>
+            <br />
+            <h5>
+                These are some our clients' favorites.
+            </h5>
+            <h5>
+                👇😉
+            </h5>
+            <br />
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Imagenes/IMG_2822.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Imagenes/IMG_2866.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Imagenes/IMG_2583.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Imagenes/IMG_2958.JPG" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+            <br />
+
+            <div class="container" id="recomendaciones">
+                <h2>
+                    Follow this symbol <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                    </svg> to identify our recommendations.
+                </h2>
+            </div>
+            <br />
+            <br />
+
+            <div class="container" id="menu-tabs">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="pills-desayuno1-tab" data-bs-toggle="pill"
+                            href="#pills-desayuno1" role="tab" aria-controls="pills-desayuno1"
+                            aria-selected="true">Starters & From Our Comal</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-desayuno2-tab" data-bs-toggle="pill" href="#pills-desayuno2"
+                            role="tab" aria-controls="pills-desayuno2" aria-selected="false">Sweet Breakfast</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-desayuno3-tab" data-bs-toggle="pill" href="#pills-desayuno3"
+                            role="tab" aria-controls="pills-desayuno3" aria-selected="false">Salty Breakfast</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-desayuno4-tab" data-bs-toggle="pill" href="#pills-desayuno4"
+                            role="tab" aria-controls="pills-desayuno4" aria-selected="false">Omelettes & Eggs</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-desayuno5-tab" data-bs-toggle="pill" href="#pills-desayuno5"
+                            role="tab" aria-controls="pills-desayuno5" aria-selected="false">Especialties</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-desayuno6-tab" data-bs-toggle="pill" href="#pills-desayuno6"
+                            role="tab" aria-controls="pills-desayuno" aria-selected="false">Juice Bar</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-desayuno7-tab" data-bs-toggle="pill" href="#pills-desayuno7"
+                            role="tab" aria-controls="pills-desayuno7" aria-selected="false">Drinks</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="pills-desayuno1" role="tabpanel"
+                        aria-labelledby="pills-desayuno1-tab">
+                        <div class="row" id="row-box">
+                            <div class="col-6">
+                                <strong>Hommade Toast <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                        height="16" fill="currentColor" class="bi bi-bookmark-star-fill"
+                                        viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                    </svg></strong><span> | $54.00</span>
+                                <p>with butter and jam</p>
+                                <strong>Pan dulce <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                    </svg></strong><span> | $16.00</span>
+                                <p>1 piece of our very own sweet bread</p>
+                                <strong>Cereal</strong><span> | $46.00</span>
+                                <p>with fruit</p>
+                                <strong>Melon & Cottage Cheese</strong><span> | $62.00</span>
+                                <p>fresh melon slices with cottage cheese and honey</p>
+                                <strong>Fruit Cocktail</strong><span> | $54.00</span>
+                                <p>with Granadine</p>
+                                <strong>Fruit Salad</strong><span> | $62.00</span>
+                                <p></p>
+                                <strong>Yogurt, Honey & Granola</strong><span> | $68.00</span>
+
+                            </div>
+                            <div class="col-6">
+                                <strong>Empanada</strong><span> | $33.00</span>
+                                <p>quesillo with squash blossom or quesillo with mushrooms</p>
+                                <strong>Quesadilla</strong><span> | $31.00</span>
+                                <p>quesillo and epazote</p>
+                                <strong>Picaditas</strong><span> | $62.00</span>
+                                <p>(3 pieces) with chorizo, tasajo or queso fresco</p>
+                                <strong>Embarrada</strong><span> | $33.00</span>
+                                <p>with chorizo, tasajo or mole</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-desayuno2" role="tabpanel"
+                        aria-labelledby="pills-desayuno2-tab">
+                        <div class="row" id="row-box">
+                            <div class="col-6">
+                                <strong>French Toast</strong><span> | $54.00</span>
+                                <p>with a side of fruit</p>
+                                <strong>Pancakes</strong><span> | $68.00</span>
+                                <p>with fresh fruit slices, butter and honey</p>
+                                <strong>Waffles</strong><span> | $68.00</span>
+                                <p>with fresh fruit slices, butter and honey</p>
+
+                            </div>
+                            <div class="col-6">
+                                <strong>Bacon Waffles <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                        height="16" fill="currentColor" class="bi bi-bookmark-star-fill"
+                                        viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                    </svg></strong><span> | $84.00</span>
+                                <p>bacon goes straight into the mix</p>
+                                <strong>Bacon & Pecan Waffles<svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                        height="16" fill="currentColor" class="bi bi-bookmark-star-fill"
+                                        viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                    </svg></strong><span> | $91.00</span>
+                                <p>bacon and pecan nuts go straight into the mix</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-desayuno3" role="tabpanel"
+                        aria-labelledby="pills-desayuno3-tab">
+                        <div class="row" id="row-box">
+                            <div class="col-6">
+                                <strong>Fried Sandwich <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                    </svg></strong><span> | $91.00</span>
+                                <p>capped ham and cheese sandwich</p>
+                                <strong>Tacos Albañil <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                    </svg></strong><span> | $91.00</span>
+                                <p>tasajo, bacon, bell peppers and mushroom tacos</p>
+                                <strong>Tasajo & Guacamole</strong><span> | $121.00</span>
+                                <p>with a side of roasted bell peppers and onions</p>
+                            </div>
+                            <div class="col-6">
+                                <strong>Mexican Beef Tips</strong><span> | $168.00</span>
+                                <p>beef fillet tips with tomatoes and onions</p>
+                                <strong>Tinga Tostadas</strong><span> | $76.00</span>
+                                <p>(3 pieces) with fresh veggies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-desayuno4" role="tabpanel"
+                        aria-labelledby="pills-desayuno4-tab">
+                        <div class="row" id="row-box">
+                            <div class="col-6">
+                                <strong>Ham & Cheese Omelette</strong><span> | $68.00</span>
+                                <p></p>
+                                <strong>Veggie Omelette</strong><span> | $76.00</span>
+                                <p>with spinach, mushroom and cheese</p>
+                                <strong>Shrimp Omelette</strong><span> | $91.00</span>
+                                <p>with garlic shrimp and cheese</p>
+                            </div>
+                            <div class="col-6">
+                                <strong>Motuleños <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                    </svg></strong><span> | $88.00</span>
+                                <p>with peas, fried banana, dipped in sauce</p>
+                                <strong>A Caballo</strong><span> | $114.00</span>
+                                <p>fried eggs served over tasajo</p>
+                                <strong>Rancheros</strong><span> | $71.00</span>
+                                <p>fried eggs over tortilla, dipped in sauce</p>
+                                <strong>Divorciados</strong><span> | $71.00</span>
+                                <p>two fried eggs, dipped in red and green sauce</p>
+                                <strong>Mexican Eggs</strong><span> | $71.00</span>
+                                <p>scrabled eggs with tomatoes and onions</p>
+                                <strong>Oaxaca Eggs</strong><span> | $71.00</span>
+                                <p>this omelette dipped in sauce</p>
+                                <strong>With Ham of Bacon</strong><span> | $79.00</span>
+                                <p>to taste with ham or bacon</p>
+                                <strong>Eggs with Chorizo</strong><span> | $79.00</span>
+                                <p>scrabled eggs mixed with fried chorizo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-desayuno5" role="tabpanel"
+                        aria-labelledby="pills-desayuno5-tab">
+                        <div class="row" id="row-box">
+                            <div class="col-6">
+                                <strong>Chilaquiles</strong><span> | $109.00</span>
+                                <p>red or green sauce with tasajo, chicken or eggs</p>
+                                <strong>Chilaquiles Coloradito <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                        height="16" fill="currentColor" class="bi bi-bookmark-star-fill"
+                                        viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                    </svg></strong><span> | $121.00</span>
+                                <p>spicy red mole with tasajo, checken or eggs</p>
+                                <strong>Chilaquiles with Mole</strong><span> | $121.00</span>
+                                <p>black mole with tasajo, chicken or eggs</p>
+                            </div>
+                            <div class="col-6">
+                                <strong>Enchiladas Suizas <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                    </svg></strong><span> | $109.00</span>
+                                <p>with a creamy chili sauce and gratin cheese</p>
+                                <strong>Enfrijoladas</strong><span> | $109.00</span>
+                                <p>soft bean sauce with tasajo or eggs</p>
+                                <strong>Entomatadas/Enchiladas</strong><span> | $109.00</span>
+                                <p>red or green sauce with tasajo or eggs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-desayuno6" role="tabpanel"
+                        aria-labelledby="pills-desayuno6-tab">
+                        <div class="row" id="row-box">
+                            <div class="col-6">
+                                <strong>Big Mix</strong><span> | $66.00</span>
+                                <p>Papaya, strawberry, guava, pineapple and orange juice</p>
+                                <strong>Clorofila</strong><span> | $66.00</span>
+                                <p>alfalfa, guava, honey, orange juice</p>
+                                <strong>Acapulco</strong><span> | $66.00</span>
+                                <p>apple, strawberry, guava</p>
+                                <strong>Happy Cool <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z" />
+                                    </svg></strong><span> | $72.00</span>
+                                <p>Yogurt, granola, banana, strawberry, papaya</p>
+                                <strong>The Mexican</strong><span> | $66.00</span>
+                                <p>milk, pear, banana, strawberry</p>
+                                <strong>Orange & Strawberry</strong><span> | $66.00</span>
+                                <p></p>
+                                <strong>Orange & Apple</strong><span> | $66.00</span>
+                                <p></p>
+                            </div>
+                            <div class="col-6">
+                                <strong>Digestive</strong><span> | $66.00</span>
+                                <p>apple, pineapple and papaya</p>
+                                <strong>Rejuvenating</strong><span> | $66.00</span>
+                                <p>Carrot, apple, beet</p>
+                                <strong>Activate!</strong><span> | $66.00</span>
+                                <p>beet, celery, lemon, ginger, cucumber</p>
+                                <strong>Diuretic</strong><span> | $66.00</span>
+                                <p>orange, kiwi, lemon</p>
+                                <strong>Anti-Stress</strong><span> | $66.00</span>
+                                <p>banana, strawberry, pear</p>
+                                <strong>Fresh Juice</strong><span> | $50.00</span>
+                                <p>orange, carrot, pineapple, apple or tomato</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-desayuno7" role="tabpanel"
+                        aria-labelledby="pills-desayuno7-tab">
+                        <div class="row" id="row-box">
+                            <div class="col-6">
+                                <strong>Black Coffee</strong><span> | $28.00</span>
+                                <p>Refill</p>
+                                <strong>Black Tea</strong><span> | $23.00</span>
+                                <p></p>
+                                <strong>Hot Chocolate</strong><span> | $39.00</span>
+                                <p>Oaxaca chocolate with warm milk</p>
+                                <strong>Choco-Milk</strong><span> | $46.00</span>
+                                <p></p>
+                                <strong>Fruit Milkshake</strong><span> | $55.00</span>
+                                <p>papaya, apple, strawberry, banana etc.</p>
+                                <strong>Piñada</strong><span> | $59.00</span>
+                                <p>with coconut cream</p>
+                            </div>
+                            <div class="col-6">
+                                <strong>Soda</strong><span> | $33.00</span>
+                                <p></p>
+                                <strong>Beer</strong><span> | $33.00</span>
+                                <p>Indio, Corona, Victoria, XX Lager, Modelo Especial</p>
+                                <strong>Fresh Fruit Water</strong><span> | $39.00</span>
+                                <p>Papaya, pineapple, watermelon, hibiscus, lemon etc.</p>
+                                <strong>Pitcher: Fresh Fruit Water</strong><span> | $92.00</span>
+                                <p></p>
+                                <strong>Lemonade/Orangeade</strong><span> | $50.00</span>
+                                <p>with minearl water</p>
+                                <strong>Pitcher: Lemonade/Orangeade</strong><span> | $99.00</span>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+        <footer id="footer">
+            <h6>
+                Follow us on <a href="http://www.facebook.com/restaurant.sotavento" target="_blank"
+                    class="fa fa-facebook"></a>
+            </h6>
+            <br />
+            <br />
+            <br />
+
+            Website developed by <a href="https://www.linkedin.com/in/paolabramlett/" target="_blank">Paola Vásquez
+                Bramlett</a>. Open source at <a href="https://github.com/paolabramlett/SOTAVENTO-MENU-ONLINE"
+                target="_blank">
+                GitHub </a>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
