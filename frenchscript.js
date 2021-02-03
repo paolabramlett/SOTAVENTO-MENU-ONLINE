@@ -1,1 +1,1 @@
-alert("Welcome to our Online Menu! We hope you enjoy your food. 😋👌 ¡Bon apetit! (🍹 Happy Hour starts at 5:00 pm 👈😉)");
+alert("Bienvenus sur notre menu en ligne. Nous espérons que tu aimes tes aliments. 😋👌 ¡Bon apetit! (🍹 La Happy Hour commence à 5:00pm 👈😉)");
